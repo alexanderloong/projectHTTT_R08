@@ -11,11 +11,28 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="20"
-  DTS:VersionGUID="{8A05F111-DA3E-46CE-BDE7-27C410ADBC32}">
+  DTS:VersionBuild="22"
+  DTS:VersionGUID="{08C3F97E-DA27-4599-9605-C98AF2582D2A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.JADE.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{B94A5577-ADD4-4588-956D-DB6A9718F3E7}"
+      DTS:ObjectName="DESKTOP-FHVT7BL\ALEXLOONG.JADE.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=JADE;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA6AGFAgu8wR1P73yxfZW3qFk9j7y3HTpP+OiZ2aAPiXQAAAAAOgAAAAAIAACAAAADPm99/ZAosLrejiXmOQ3ZwVsfotQQzqBZQWBFDmGYYQBAAAADMeEZhFiQ3tOGDx0XpArIKQAAAANVscY8EMR5DhM1FFqD8ofo54y7DwfopzocYZOdt+LyVfSi+TR4cA9bl4YZyQvB4UF5sZDqDTLfBAhSwIiM9Bf8</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.JUPITER.sa]"
       DTS:CreationName="OLEDB"
@@ -29,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADBu2AIJZEtIo2egYYbnesrYdoKDxniOkb20Wo3M8qxSQAAAAAOgAAAAAIAACAAAAB4PHkQFqxuMtiqNseN1jsfvUynBuVEURbLhSO0yK0jWxAAAAD6Vmt0pqIscm/PDfs9YSn8QAAAAIX80AwGLtna+bwVm+bvTgVRYTavXXCnHKSQymfABWqvI1CCg28aYXIe4FeuZ4WzAyWV9hPz+d/n5gEXFfayltI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABULyj8+Sscp7Q+lHJL5ltYVQbbvF7X9C0yWP9nHr9NfwAAAAAOgAAAAAIAACAAAACO9Q/ynThPct9Yc2g55+UxyfLX3Ox9DalLqDZ3xakJ5RAAAACN8/yS4jQwEAp3GbhsNallQAAAAIsDpCyZxdVyYKON+b7xDvc0jO0fRFfVZZ7gAYzruXAWyv8WPm2+UlM6O4EWPhOt8B3pafZjJL6LVG2w3V03Vcc</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +63,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADhvuMvmCeiXvzDSFMar42v46R6piGaLH8G5xp+Um8P5wAAAAAOgAAAAAIAACAAAAC2CxmMtRsgzo6bxJdn7gSPkwK54+Q35V0IYiSu5gWzIxAAAADeuXw6U2slP6df1dlpmff0QAAAABJoUMcOzVbV/AkTQloU4zcPKDFSbUJwv6dERjd2fJiP2aaMBBRTiux21V+DP7obPmz9pYyUXH/HbXe2b/3EfXw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADzJ5WuWagHFaCq1IrydUvxW3lEs8gq+/hAWrD9fc13OwAAAAAOgAAAAAIAACAAAAD/cGt2OP1oYyGmv3Yo7+X+H64kDR7fE53wqT8xPVg9TBAAAADmke912Li6mx/O53CSqY3KQAAAAAVQvNN238sspH6dhw8IbBLF1fmAcQkgIYY9bOO9ulZVJx7RtrBOs5gTR1GlO4QyKiQhi5I1mfNFS2+dJYMD42E</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -63,7 +80,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACPOQSLYqxwdS3QjbHx20sHOcBjjsnpceurwrUezklLawAAAAAOgAAAAAIAACAAAACyXmmS7GYl9LXnlW9gCzhk7KEJgS+g2jIIV2PUX14eyxAAAAClBC1fcgwIi3lCHOwvOn93QAAAAJIbM2hlkVq/PSdDfSWlm3OQHkRQMWU3xD0Ae3Yl+SL6jOJpZXqg6P4IgEOvLV+80pa80JVNXrk/GVub2xho5cg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABakqZdDNimDiFmLNMA8ihpQyBn+Y+ydyC5/+JPjA7z7QAAAAAOgAAAAAIAACAAAACWXDwsSnlYRz2J/f+Pp+91WGj9chY8nndNgHle8K6VQRAAAADNlTtnfqyj77TUHJNnpSdrQAAAAJrxTEYKUsvnj1sGX2z00p15I2V1oTA/Z8xNW+xrzfvLAd7FMGWHySiOAod/woFxXSMLP6Yk4Au0eQVNkt1QK7c</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -80,7 +97,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAO88WDTxlEOa82rakHCpBTXqcABYOj9C1COVNMTTSJCAAAAAAOgAAAAAIAACAAAAC5qmGRL3slqSxEQcTL8w8tNPhlwzCv1p9WWAZk3+RKKBAAAAABYt+6KEWqK0CPRmGTRVl+QAAAAHvbwIcAYJTE0nkD+KCOiS4AW1EMciyrC3lLRAobuhY+ZIwJlNI6ObPh/QKelHUkoB98jKEUvkBNO/fJ3jhEN6A</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACepbKWZ0flzKRqT06SU/KpDMIfaFQaHFwjwc/6mivumgAAAAAOgAAAAAIAACAAAAA5zTY2/5r9S1VSVNV0hQJsOEXI1Gc5BfygE5rcdmbGGRAAAACxcuEuuJbdjEox/w4/MQ6YQAAAAJrpzW72eC/p0r7zuq96tJ9JX7Y9dxZJ+TKOHRp2aWfSBbsDGsnRhseKVUJqBzP14zy2Dp8FUKi1ZQTXYXOP6KI</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -97,7 +114,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA7bd6aUPxcc+KT3uViFQpJTsuK486yCxl3DftEny/QwwAAAAAOgAAAAAIAACAAAACvDIEnHGlVILOUydq6Ve0mlB1NOeST5qK8xCoBGLbwZRAAAADvk7O7YvyjL4il38RhjkatQAAAANO/b9OAq+whGBsWBwliWB0tApPQ6bGKb46PPaYu260S/ZtKuOHg54+ZngGBytTSrzcbk2xyayY0OqXYgEB5cLs</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABmv/doL43W+WTu3E+WX8xq7QyoFz7nzUgDUHH3Qh2BuQAAAAAOgAAAAAIAACAAAADHVt+VpEmVW2gfatWW1/E0E8xxSuiaxrATA23yI/s5OxAAAACzhigJUokB+d1OZvRmoByUQAAAAAZlTDfittDoke7oA7dVIJQ2jB3BTHdR6ApVYe9/H/hwEHFOZTlKcxmPb8x73knE2EKfGXh7pwON4ckHQA5HLM4</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -114,7 +131,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABUutrCbIKuWQfSOsriPlKNORkmPVkNZOE4V0gy7Nh2UgAAAAAOgAAAAAIAACAAAACjqjJbumC/Gyyf/5cT69CXVk7yZnMjAU2EdqHbefsdJhAAAADDxwk3myGQFEjoliHzx52lQAAAAOzLR1t5kluMYQkIALVs88yzfg+NfQzqs+zVhPXfncs+SpTZggnxdVFDYqPHHAQKR8FVS2IzpZq1pavAjOblqrg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABkfMPQLXnYnD8j5pmmOvo51EXf9WxQKBOHk17lpwnb5AAAAAAOgAAAAAIAACAAAAAiOZwjefChqalCnrdZY/j60i2zX7iVSoFHv57iZRnN5xAAAADkrU4Lqwslr6ZY3Ay0Q8w0QAAAAPC5sTVWetEmvBubv1iHCvbEeksgCY4CcmoWp9+hIg8DkvzJbjW9OJfcjx4ybx5eWI6TTONdBIQwMZJl0LJOZQM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -131,7 +148,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABo0kqAhNSs+KJ0CapvWL6AWl9l7tT6XiiLln6WjL4mOgAAAAAOgAAAAAIAACAAAAAP0LRivEAH7LyHg9ck84xVhHGfgyevwIA7AzrdFEpPQRAAAAAbEIZThamfo7keu3EakfekQAAAAP8kAifTBuytP+JaSXzn0BDuFswxpXlUvSDllCG0Ekp5d0tyQqEoq73X0PosulcIVxkYfER3PGrtWRi+rFqeRzg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABl2VvpNvPHIMMrrDKOIiZEtfMu0t7vxauyF6RuAXPoEgAAAAAOgAAAAAIAACAAAACoPmXjpptsctYetEtIr9mC/0ej265CT41Iyj36Mgn4IBAAAAAcz9XtEo+TatVGX8pNMn+LQAAAAMDc9e/VJORYJk9P7Qomr1/q1FHmvK23eMxzpcCHXZBrKsPC+sYSoBI6StkiDjWlz3EHCgK6BzFL2lR+UujgjKY</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -157,6 +174,1198 @@
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Extract JADE"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{f965a335-133a-4be2-ada2-765cb022e44f}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Extract JADE"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Extract JADE\ChiTietHoaDon"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="ChiTietHoaDon"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[ChiTietHoaDon_Jade]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Extract JADE\ChiTietHoaDon.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.JADE.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.JADE.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[MaChiTiet]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaChiTiet]"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[MaChiTiet]"
+                      name="MaChiTiet"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[MaHD]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaHD]"
+                      length="4"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[MaHD]"
+                      name="MaHD"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[MaSP]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaSP]"
+                      length="4"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[MaSP]"
+                      name="MaSP"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[NgayTao]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[NgayTao]"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[NgayTao]"
+                      name="NgayTao"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[NgayCapNhat]"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[NgayCapNhat]"
+                      name="NgayCapNhat"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[TrangThai]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[TrangThai]"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[TrangThai]"
+                      name="TrangThai"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaChiTiet]"
+                      dataType="i4"
+                      name="MaChiTiet" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaHD]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaHD" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaSP]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaSP" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[NgayTao]"
+                      dataType="dbTimeStamp"
+                      name="NgayTao" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      name="NgayCapNhat" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].ExternalColumns[TrangThai]"
+                      dataType="i4"
+                      name="TrangThai" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[MaChiTiet]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[MaChiTiet]"
+                      name="MaChiTiet" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[MaHD]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[MaHD]"
+                      name="MaHD" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[MaSP]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[MaSP]"
+                      name="MaSP" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[NgayTao]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[NgayTao]"
+                      name="NgayTao" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[NgayCapNhat]"
+                      name="NgayCapNhat" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[TrangThai]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[TrangThai]"
+                      name="TrangThai" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Extract JADE\HoaDon"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="HoaDon"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[HoaDon_Jade]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Extract JADE\HoaDon.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.JADE.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.JADE.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[MaHD]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaHD]"
+                      length="4"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[MaHD]"
+                      name="MaHD"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[MaKH]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaKH]"
+                      length="4"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[MaKH]"
+                      name="MaKH"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[MaCH]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaCH]"
+                      length="4"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[MaCH]"
+                      name="MaCH"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[NgayBan]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[NgayBan]"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[NgayBan]"
+                      name="NgayBan"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[NgayCapNhat]"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[NgayCapNhat]"
+                      name="NgayCapNhat"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[TrangThai]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[TrangThai]"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[TrangThai]"
+                      name="TrangThai"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaHD]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaHD" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaKH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaKH" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[MaCH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaCH" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[NgayBan]"
+                      dataType="dbTimeStamp"
+                      name="NgayBan" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      name="NgayCapNhat" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].ExternalColumns[TrangThai]"
+                      dataType="i4"
+                      name="TrangThai" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[MaHD]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[MaHD]"
+                      name="MaHD" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[MaKH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[MaKH]"
+                      name="MaKH" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[MaCH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[MaCH]"
+                      name="MaCH" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[NgayBan]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[NgayBan]"
+                      name="NgayBan" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[NgayCapNhat]"
+                      name="NgayCapNhat" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[TrangThai]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[TrangThai]"
+                      name="TrangThai" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Extract JADE\KhachHang"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="KhachHang"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[KhachHang_Jade]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Extract JADE\KhachHang.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.JADE.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.JADE.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[MaKH]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[MaKH]"
+                      length="4"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[MaKH]"
+                      name="MaKH"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[TenKH]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[TenKH]"
+                      length="50"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[TenKH]"
+                      name="TenKH"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[DiaChi]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[DiaChi]"
+                      length="50"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[DiaChi]"
+                      name="DiaChi"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[NgayTao]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[NgayTao]"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[NgayTao]"
+                      name="NgayTao"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[NgayCapNhat]"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[NgayCapNhat]"
+                      name="NgayCapNhat"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[TrangThai]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[TrangThai]"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[TrangThai]"
+                      name="TrangThai"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[MaKH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaKH" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[TenKH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="TenKH" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[DiaChi]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="DiaChi" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[NgayTao]"
+                      dataType="dbTimeStamp"
+                      name="NgayTao" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      name="NgayCapNhat" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].ExternalColumns[TrangThai]"
+                      dataType="i4"
+                      name="TrangThai" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[MaKH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[MaKH]"
+                      name="MaKH" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[TenKH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[TenKH]"
+                      name="TenKH" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[DiaChi]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[DiaChi]"
+                      name="DiaChi" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[NgayTao]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[NgayTao]"
+                      name="NgayTao" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[NgayCapNhat]"
+                      name="NgayCapNhat" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[TrangThai]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[TrangThai]"
+                      name="TrangThai" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Extract JADE\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[HoaDon_Jade]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Extract JADE\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.STAGE.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.STAGE.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[MaHD]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="4"
+                      cachedName="MaHD"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaHD]"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[MaHD]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[MaKH]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="4"
+                      cachedName="MaKH"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaKH]"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[MaKH]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[MaCH]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="4"
+                      cachedName="MaCH"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaCH]"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[MaCH]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NgayBan]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NgayBan"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayBan]"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[NgayBan]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NgayCapNhat]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NgayCapNhat"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayCapNhat]"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[NgayCapNhat]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TrangThai]"
+                      cachedDataType="i4"
+                      cachedName="TrangThai"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TrangThai]"
+                      lineageId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output].Columns[TrangThai]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaHD]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaHD" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaKH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaKH" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaCH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaCH" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayBan]"
+                      dataType="dbTimeStamp"
+                      name="NgayBan" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      name="NgayCapNhat" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TrangThai]"
+                      dataType="i4"
+                      name="TrangThai" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Extract JADE\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Extract JADE\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Extract JADE\OLE DB Destination 1"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination 1"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[KhachHang_Jade]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Extract JADE\OLE DB Destination 1.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.STAGE.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.STAGE.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[MaKH]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="4"
+                      cachedName="MaKH"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[MaKH]"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[MaKH]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[TenKH]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="TenKH"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[TenKH]"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[TenKH]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[DiaChi]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DiaChi"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[DiaChi]"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[DiaChi]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[NgayTao]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NgayTao"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[NgayTao]"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[NgayTao]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[NgayCapNhat]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NgayCapNhat"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[NgayCapNhat]"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[NgayCapNhat]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[TrangThai]"
+                      cachedDataType="i4"
+                      cachedName="TrangThai"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[TrangThai]"
+                      lineageId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output].Columns[TrangThai]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[MaKH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaKH" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[TenKH]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="TenKH" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[DiaChi]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="DiaChi" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[NgayTao]"
+                      dataType="dbTimeStamp"
+                      name="NgayTao" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      name="NgayCapNhat" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[TrangThai]"
+                      dataType="i4"
+                      name="TrangThai" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Extract JADE\OLE DB Destination 1.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Extract JADE\OLE DB Destination 2"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination 2"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[ChiTietHoaDon_Jade]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Extract JADE\OLE DB Destination 2.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.STAGE.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.STAGE.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].Columns[MaChiTiet]"
+                      cachedDataType="i4"
+                      cachedName="MaChiTiet"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[MaChiTiet]"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[MaChiTiet]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].Columns[MaHD]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="4"
+                      cachedName="MaHD"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[MaHD]"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[MaHD]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].Columns[MaSP]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="4"
+                      cachedName="MaSP"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[MaSP]"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[MaSP]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].Columns[NgayTao]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NgayTao"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[NgayTao]"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[NgayTao]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].Columns[NgayCapNhat]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NgayCapNhat"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[NgayCapNhat]"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[NgayCapNhat]" />
+                    <inputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].Columns[TrangThai]"
+                      cachedDataType="i4"
+                      cachedName="TrangThai"
+                      externalMetadataColumnId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[TrangThai]"
+                      lineageId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output].Columns[TrangThai]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[MaChiTiet]"
+                      dataType="i4"
+                      name="MaChiTiet" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[MaHD]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaHD" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[MaSP]"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
+                      name="MaSP" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[NgayTao]"
+                      dataType="dbTimeStamp"
+                      name="NgayTao" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[NgayCapNhat]"
+                      dataType="dbTimeStamp"
+                      name="NgayCapNhat" />
+                    <externalMetadataColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[TrangThai]"
+                      dataType="i4"
+                      name="TrangThai" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Extract JADE\OLE DB Destination 2.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\OLE DB Destination 2.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Extract JADE\OLE DB Destination 2.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Extract JADE\OLE DB Destination 2.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Extract JADE.Paths[OLE DB Source Output]"
+              endId="Package\Extract JADE\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract JADE\HoaDon.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract JADE.Paths[OLE DB Source Output1]"
+              endId="Package\Extract JADE\OLE DB Destination 1.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract JADE\KhachHang.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract JADE.Paths[OLE DB Source Output2]"
+              endId="Package\Extract JADE\OLE DB Destination 2.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract JADE\ChiTietHoaDon.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Extract JUPITER"
       DTS:CreationName="Microsoft.Pipeline"
@@ -2113,6 +3322,7 @@ or (NgayCapNhap &gt; ? and NgayCapNhap &lt;= ?)</property>
       DTS:refId="Package\Extract WEBTOWER"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{C0EE32BE-6E27-4426-A5C8-CE93B6A8036A}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3332,9 +4542,36 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Get LSET 1"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{7aeb8308-0687-4bf5-81bb-829f4b20594a}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Get LSET 1"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="2">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{71E9B7AE-EA9A-4FCD-903D-E7DED5389F51}"
+          SQLTask:BypassPrepare="False"
+          SQLTask:SqlStatementSource="select LSET, CET from data_flow where name = 'JADE'"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="CET"
+            SQLTask:DtsVariableName="User::dtCET" />
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="LSET"
+            SQLTask:DtsVariableName="User::dtLSET" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Get LSET WTW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{536C12B0-4AE0-4E54-9EBF-5C9DDF77870C}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -3375,9 +4612,27 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Set CET 1"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{7a1f30e7-4be2-47c2-847b-a192c6c3ff8d}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Set CET 1"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="2">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{71E9B7AE-EA9A-4FCD-903D-E7DED5389F51}"
+          SQLTask:SqlStatementSource="UPDATE data_flow SET CET = getdate() where name = 'JADE'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Set CET WTW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{CF45940F-C547-48C2-ACC6-D45A29A9FB69}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -3410,9 +4665,27 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Set LSET 1"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{75bcc331-2de7-4f9c-9770-ba55d9ba9310}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Set LSET 1"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="2">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{71E9B7AE-EA9A-4FCD-903D-E7DED5389F51}"
+          SQLTask:SqlStatementSource="UPDATE data_flow SET LSET = GETDATE() where name = 'JADE'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Set LSET WTW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{e07ae107-8a82-4918-abb8-c8be95b71af0}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -3445,9 +4718,27 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Truncate table JADE"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{677f20b4-bb44-4580-86d5-8bccc6251273}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate table JADE"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="2">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C20FAC4F-00E0-4C2F-ADEF-264EDED97FB8}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE HoaDon_Jade;&#xA;TRUNCATE TABLE KhachHang_Jade;&#xA;TRUNCATE TABLE ChiTietHoaDon_Jade;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Truncate table WTW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{2B0C859A-C841-4BF7-80D6-0600A08DD131}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -3504,6 +4795,14 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       DTS:ObjectName="Constraint 4"
       DTS:To="Package\Set CET WTW" />
     <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{ac332d6d-7c12-4bd7-9ed6-f015e578e263}"
+      DTS:From="Package\Truncate table JADE"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4 1"
+      DTS:To="Package\Set CET 1" />
+    <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
       DTS:CreationName=""
       DTS:DTSID="{EC8A7D6D-28A1-48F1-AB69-F7D8D3C79E8E}"
@@ -3511,6 +4810,14 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 5"
       DTS:To="Package\Get LSET WTW" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 5 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{4f6af331-1ab4-4b04-86c4-ce9a076dc1d1}"
+      DTS:From="Package\Set CET 1"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 5 1"
+      DTS:To="Package\Get LSET 1" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
       DTS:CreationName=""
@@ -3520,6 +4827,14 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       DTS:ObjectName="Constraint 6"
       DTS:To="Package\Extract WEBTOWER" />
     <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 6 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{68475eff-e3a5-4f1d-bfb6-2022d751bf18}"
+      DTS:From="Package\Get LSET 1"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 6 1"
+      DTS:To="Package\Extract JADE" />
+    <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 7]"
       DTS:CreationName=""
       DTS:DTSID="{467E446E-B801-474D-8966-170988606645}"
@@ -3527,6 +4842,14 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 7"
       DTS:To="Package\Set LSET WTW" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 7 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{155348b9-81f9-433b-8fb1-40c5258ab405}"
+      DTS:From="Package\Extract JADE"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 7 1"
+      DTS:To="Package\Set LSET 1" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -3545,21 +4868,41 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
           Id="Package\Extract JUPITER"
           TopLeft="238.750004065888,247.955885830429" />
         <NodeLayout
+          Size="172,41.6"
+          Id="Package\Extract WEBTOWER"
+          TopLeft="453.968261699288,244.588237951463" />
+        <NodeLayout
           Size="121.6,41.6"
           Id="Package\Get LSET"
           TopLeft="251.607147141987,173.779414201897" />
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\Get LSET WTW"
+          TopLeft="460.31746815662,167.385623262553" />
         <NodeLayout
           Size="115.2,41.6"
           Id="Package\Set CET"
           TopLeft="252.321432868437,96.5441190010536" />
         <NodeLayout
+          Size="144,41.6"
+          Id="Package\Set CET WTW"
+          TopLeft="465.07937299962,94.3137268129105" />
+        <NodeLayout
           Size="120,41.6"
           Id="Package\Set LSET"
           TopLeft="250.496036011954,325.106213709819" />
         <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\Set LSET WTW"
+          TopLeft="468.253976228286,328.823534023391" />
+        <NodeLayout
           Size="146.4,41.6"
           Id="Package\Truncate table"
           TopLeft="233.750003980739,21.6029414794437" />
+        <NodeLayout
+          Size="175.2,41.6"
+          Id="Package\Truncate table WTW"
+          TopLeft="451.587309277788,24.640523221391" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="311.164290005212,138.144119001054">
@@ -3648,14 +4991,6 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="175.2,41.6"
-          Id="Package\Truncate table WTW"
-          TopLeft="451.587309277788,24.640523221391" />
-        <NodeLayout
-          Size="144,41.6"
-          Id="Package\Set CET WTW"
-          TopLeft="465.07937299962,94.3137268129105" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
           TopLeft="538.133341138704,66.240523221391">
@@ -3678,10 +5013,6 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\Get LSET WTW"
-          TopLeft="460.31746815662,167.385623262553" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
           TopLeft="539.29842057812,135.913726812911">
@@ -3704,10 +5035,6 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="172,41.6"
-          Id="Package\Extract WEBTOWER"
-          TopLeft="453.968261699288,244.588237951463" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
           TopLeft="537.742864927954,208.985623262553">
@@ -3730,10 +5057,6 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\Set LSET WTW"
-          TopLeft="468.253976228286,328.823534023391" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
           TopLeft="541.311118963787,286.188237951463">
@@ -3748,6 +5071,114 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,35.1352960719277" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="144,41.6"
+          Id="Package\Extract JADE"
+          TopLeft="686.787309277788,251.367647372522" />
+        <NodeLayout
+          Size="121.6,41.6"
+          Id="Package\Get LSET 1"
+          TopLeft="705.902392783093,177.709155189263" />
+        <NodeLayout
+          Size="128.8,41.6"
+          Id="Package\Set CET 1"
+          TopLeft="702.215880645538,97.6029414794437" />
+        <NodeLayout
+          Size="135.2,41.6"
+          Id="Package\Set LSET 1"
+          TopLeft="693.501594748789,324.485294152503" />
+        <NodeLayout
+          Size="145.6,41.6"
+          Id="Package\Truncate table JADE"
+          TopLeft="692.215880645538,21.6029414794437" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4 1]"
+          TopLeft="765.965880645538,63.6029414794437">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 5 1]"
+          TopLeft="766.659136714316,139.202941479444">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38.506213709819"
+              Start="0,0"
+              End="0,31.006213709819">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.006213709819" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 6 1]"
+          TopLeft="762.74485103044,219.309155189263">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32.058492183259"
+              Start="0,0"
+              End="0,24.558492183259">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.558492183259" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 7 1]"
+          TopLeft="759.944452013289,292.967647372522">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31.5176467799812"
+              Start="0,0"
+              End="0,24.0176467799812">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.0176467799812" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4128,7 +5559,7 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Extract WEBTOWER\ChiTietHoaDon">
+    design-time-name="Package\Extract WEBTOWER\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4141,7 +5572,33 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Extract WEBTOWER\OLE DB Destination">
+    design-time-name="Package\Extract WEBTOWER\OLE DB Destination 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract WEBTOWER\OLE DB Destination 2">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract WEBTOWER\ChiTietHoaDon">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4162,7 +5619,125 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Extract WEBTOWER\OLE DB Destination 1">
+    design-time-name="Package\Extract WEBTOWER\KhachHang_WebTower9">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Extract JADE">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="176.8,41.6"
+          Id="Package\Extract JADE\OLE DB Destination"
+          TopLeft="163,213" />
+        <NodeLayout
+          Size="179.2,41.6"
+          Id="Package\Extract JADE\OLE DB Destination 1"
+          TopLeft="424.857142650351,224.470588213845" />
+        <NodeLayout
+          Size="185.6,41.6"
+          Id="Package\Extract JADE\OLE DB Destination 2"
+          TopLeft="698,229" />
+        <NodeLayout
+          Size="153.6,41.6"
+          Id="Package\Extract JADE\ChiTietHoaDon"
+          TopLeft="730,111" />
+        <NodeLayout
+          Size="116,41.6"
+          Id="Package\Extract JADE\HoaDon"
+          TopLeft="187,109" />
+        <NodeLayout
+          Size="136,41.6"
+          Id="Package\Extract JADE\KhachHang"
+          TopLeft="453,105" />
+        <EdgeLayout
+          Id="Package\Extract JADE.Paths[OLE DB Source Output]"
+          TopLeft="248.2,150.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,62.4"
+              Start="0,0"
+              End="0,54.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Extract JADE.Paths[OLE DB Source Output2]"
+          TopLeft="807,153">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-16,76"
+              Start="0,0"
+              End="-16,68.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,34"
+                    Point2="0,38"
+                    Point3="-4,38" />
+                  <mssgle:LineSegment
+                    End="-12,38" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-12,38"
+                    Point2="-16,38"
+                    Point3="-16,42" />
+                  <mssgle:LineSegment
+                    End="-16,68.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Extract JADE.Paths[OLE DB Source Output1]"
+          TopLeft="517.728571325176,146.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,77.8705882138447"
+              Start="0,0"
+              End="0,70.3705882138447">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,70.3705882138447" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract JADE\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4175,15 +5750,59 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Extract WEBTOWER\KhachHang_WebTower9">
+    design-time-name="Package\Extract JADE\OLE DB Destination 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Extract WEBTOWER\OLE DB Destination 2">
+    design-time-name="Package\Extract JADE\OLE DB Destination 2">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract JADE\ChiTietHoaDon">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract JADE\HoaDon">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract JADE\KhachHang">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
