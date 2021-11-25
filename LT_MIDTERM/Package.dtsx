@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="20"
-  DTS:VersionGUID="{8A05F111-DA3E-46CE-BDE7-27C410ADBC32}">
+  DTS:VersionBuild="21"
+  DTS:VersionGUID="{44A34434-D4C6-4020-BCC8-B36154E2605C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,12 +25,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=JUPITER;Provider=SQLNCLI11.1;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADBu2AIJZEtIo2egYYbnesrYdoKDxniOkb20Wo3M8qxSQAAAAAOgAAAAAIAACAAAAB4PHkQFqxuMtiqNseN1jsfvUynBuVEURbLhSO0yK0jWxAAAAD6Vmt0pqIscm/PDfs9YSn8QAAAAIX80AwGLtna+bwVm+bvTgVRYTavXXCnHKSQymfABWqvI1CCg28aYXIe4FeuZ4WzAyWV9hPz+d/n5gEXFfayltI</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=JUPITER;Provider=SQLNCLI11.1;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -42,12 +37,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=metadata;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADhvuMvmCeiXvzDSFMar42v46R6piGaLH8G5xp+Um8P5wAAAAAOgAAAAAIAACAAAAC2CxmMtRsgzo6bxJdn7gSPkwK54+Q35V0IYiSu5gWzIxAAAADeuXw6U2slP6df1dlpmff0QAAAABJoUMcOzVbV/AkTQloU4zcPKDFSbUJwv6dERjd2fJiP2aaMBBRTiux21V+DP7obPmz9pYyUXH/HbXe2b/3EfXw</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=metadata;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -59,12 +49,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=metadata;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACPOQSLYqxwdS3QjbHx20sHOcBjjsnpceurwrUezklLawAAAAAOgAAAAAIAACAAAACyXmmS7GYl9LXnlW9gCzhk7KEJgS+g2jIIV2PUX14eyxAAAAClBC1fcgwIi3lCHOwvOn93QAAAAJIbM2hlkVq/PSdDfSWlm3OQHkRQMWU3xD0Ae3Yl+SL6jOJpZXqg6P4IgEOvLV+80pa80JVNXrk/GVub2xho5cg</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=metadata;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -76,12 +61,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Provider=MSOLEDBSQL.1;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAO88WDTxlEOa82rakHCpBTXqcABYOj9C1COVNMTTSJCAAAAAAOgAAAAAIAACAAAAC5qmGRL3slqSxEQcTL8w8tNPhlwzCv1p9WWAZk3+RKKBAAAAABYt+6KEWqK0CPRmGTRVl+QAAAAHvbwIcAYJTE0nkD+KCOiS4AW1EMciyrC3lLRAobuhY+ZIwJlNI6ObPh/QKelHUkoB98jKEUvkBNO/fJ3jhEN6A</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Provider=MSOLEDBSQL.1;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -93,12 +73,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=STAGE;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA7bd6aUPxcc+KT3uViFQpJTsuK486yCxl3DftEny/QwwAAAAAOgAAAAAIAACAAAACvDIEnHGlVILOUydq6Ve0mlB1NOeST5qK8xCoBGLbwZRAAAADvk7O7YvyjL4il38RhjkatQAAAANO/b9OAq+whGBsWBwliWB0tApPQ6bGKb46PPaYu260S/ZtKuOHg54+ZngGBytTSrzcbk2xyayY0OqXYgEB5cLs</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=STAGE;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -110,12 +85,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=Webtower9;Provider=SQLNCLI11.1;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABUutrCbIKuWQfSOsriPlKNORkmPVkNZOE4V0gy7Nh2UgAAAAAOgAAAAAIAACAAAACjqjJbumC/Gyyf/5cT69CXVk7yZnMjAU2EdqHbefsdJhAAAADDxwk3myGQFEjoliHzx52lQAAAAOzLR1t5kluMYQkIALVs88yzfg+NfQzqs+zVhPXfncs+SpTZggnxdVFDYqPHHAQKR8FVS2IzpZq1pavAjOblqrg</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=Webtower9;Provider=SQLNCLI11.1;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -127,12 +97,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=Webtower9;Provider=SQLNCLI11.1;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABo0kqAhNSs+KJ0CapvWL6AWl9l7tT6XiiLln6WjL4mOgAAAAAOgAAAAAIAACAAAAAP0LRivEAH7LyHg9ck84xVhHGfgyevwIA7AzrdFEpPQRAAAAAbEIZThamfo7keu3EakfekQAAAAP8kAifTBuytP+JaSXzn0BDuFswxpXlUvSDllCG0Ekp5d0tyQqEoq73X0PosulcIVxkYfER3PGrtWRi+rFqeRzg</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=Webtower9;Provider=SQLNCLI11.1;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -2113,6 +2078,7 @@ or (NgayCapNhap &gt; ? and NgayCapNhap &lt;= ?)</property>
       DTS:refId="Package\Extract WEBTOWER"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{C0EE32BE-6E27-4426-A5C8-CE93B6A8036A}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3335,6 +3301,7 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       DTS:refId="Package\Get LSET WTW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{536C12B0-4AE0-4E54-9EBF-5C9DDF77870C}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -3378,6 +3345,7 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       DTS:refId="Package\Set CET WTW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{CF45940F-C547-48C2-ACC6-D45A29A9FB69}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -3413,6 +3381,7 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       DTS:refId="Package\Set LSET WTW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{e07ae107-8a82-4918-abb8-c8be95b71af0}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -3448,6 +3417,7 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       DTS:refId="Package\Truncate table WTW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{2B0C859A-C841-4BF7-80D6-0600A08DD131}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -3541,25 +3511,45 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="154.4,41.6"
+          Size="154,42"
           Id="Package\Extract JUPITER"
           TopLeft="238.750004065888,247.955885830429" />
         <NodeLayout
-          Size="121.6,41.6"
+          Size="172,42"
+          Id="Package\Extract WEBTOWER"
+          TopLeft="453.968261699288,244.588237951463" />
+        <NodeLayout
+          Size="122,42"
           Id="Package\Get LSET"
           TopLeft="251.607147141987,173.779414201897" />
         <NodeLayout
-          Size="115.2,41.6"
+          Size="150,42"
+          Id="Package\Get LSET WTW"
+          TopLeft="460.31746815662,167.385623262553" />
+        <NodeLayout
+          Size="115,42"
           Id="Package\Set CET"
           TopLeft="252.321432868437,96.5441190010536" />
         <NodeLayout
-          Size="120,41.6"
+          Size="144,42"
+          Id="Package\Set CET WTW"
+          TopLeft="465.07937299962,94.3137268129105" />
+        <NodeLayout
+          Size="120,42"
           Id="Package\Set LSET"
           TopLeft="250.496036011954,325.106213709819" />
         <NodeLayout
-          Size="146.4,41.6"
+          Size="149,42"
+          Id="Package\Set LSET WTW"
+          TopLeft="468.253976228286,328.823534023391" />
+        <NodeLayout
+          Size="146,42"
           Id="Package\Truncate table"
           TopLeft="233.750003980739,21.6029414794437" />
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Truncate table WTW"
+          TopLeft="451.587309277788,24.640523221391" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="311.164290005212,138.144119001054">
@@ -3648,14 +3638,6 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="175.2,41.6"
-          Id="Package\Truncate table WTW"
-          TopLeft="451.587309277788,24.640523221391" />
-        <NodeLayout
-          Size="144,41.6"
-          Id="Package\Set CET WTW"
-          TopLeft="465.07937299962,94.3137268129105" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
           TopLeft="538.133341138704,66.240523221391">
@@ -3678,10 +3660,6 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\Get LSET WTW"
-          TopLeft="460.31746815662,167.385623262553" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
           TopLeft="539.29842057812,135.913726812911">
@@ -3704,10 +3682,6 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="172,41.6"
-          Id="Package\Extract WEBTOWER"
-          TopLeft="453.968261699288,244.588237951463" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
           TopLeft="537.742864927954,208.985623262553">
@@ -3730,10 +3704,6 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\Set LSET WTW"
-          TopLeft="468.253976228286,328.823534023391" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
           TopLeft="541.311118963787,286.188237951463">
@@ -3763,7 +3733,7 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
     design-time-name="Package\Extract JUPITER">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="179.2,41.6"
           Id="Package\Extract JUPITER\OLE DB Destination 2"
@@ -3823,7 +3793,9 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3845,7 +3817,9 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3867,7 +3841,9 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3889,7 +3865,9 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3911,7 +3889,9 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4033,21 +4013,29 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\Extract WEBTOWER\ChiTietHoaDon"
-          TopLeft="122.142859222938,27.5294121507955" />
-        <NodeLayout
           Size="170.4,41.6"
           Id="Package\Extract WEBTOWER\OLE DB Destination"
           TopLeft="108.571430420389,100.94117788625" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Extract WEBTOWER\OLE DB Destination 1"
+          TopLeft="322.142862628917,97.7764705346117" />
+        <NodeLayout
+          Size="179.2,41.6"
+          Id="Package\Extract WEBTOWER\OLE DB Destination 2"
+          TopLeft="542.857152101945,99.3058823207668" />
+        <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\Extract WEBTOWER\ChiTietHoaDon"
+          TopLeft="122.142859222938,27.5294121507955" />
         <NodeLayout
           Size="178.4,41.6"
           Id="Package\Extract WEBTOWER\HoaDon_WebTower9"
           TopLeft="315.714291090868,29.7176460507006" />
         <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Extract WEBTOWER\OLE DB Destination 1"
-          TopLeft="322.142862628917,97.7764705346117" />
+          Size="193.6,41.6"
+          Id="Package\Extract WEBTOWER\KhachHang_WebTower9"
+          TopLeft="536.428580563896,31.2470578368559" />
         <EdgeLayout
           Id="Package\Extract WEBTOWER.Paths[OLE DB Source Output]"
           TopLeft="406.128576859893,71.3176460507006">
@@ -4067,17 +4055,35 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="193.6,41.6"
-          Id="Package\Extract WEBTOWER\KhachHang_WebTower9"
-          TopLeft="536.428580563896,31.2470578368559" />
-        <NodeLayout
-          Size="179.2,41.6"
-          Id="Package\Extract WEBTOWER\OLE DB Destination 2"
-          TopLeft="542.857152101945,99.3058823207668" />
+        <EdgeLayout
+          Id="Package\Extract WEBTOWER.Paths[OLE DB Source Output2]"
+          TopLeft="195.157144821663,69.1294121507955">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31.8117657354546"
+              Start="0,0"
+              End="0,24.3117657354546">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.3117657354546" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Extract WEBTOWER.Paths[OLE DB Source Output1]"
           TopLeft="632.842866332921,72.8470578368559">
@@ -4102,33 +4108,11 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Extract WEBTOWER.Paths[OLE DB Source Output2]"
-          TopLeft="195.157144821663,69.1294121507955">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,31.8117657354546"
-              Start="0,0"
-              End="0,24.3117657354546">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.3117657354546" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Extract WEBTOWER\ChiTietHoaDon">
+    design-time-name="Package\Extract WEBTOWER\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4141,7 +4125,33 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Extract WEBTOWER\OLE DB Destination">
+    design-time-name="Package\Extract WEBTOWER\OLE DB Destination 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract WEBTOWER\OLE DB Destination 2">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract WEBTOWER\ChiTietHoaDon">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4162,36 +4172,10 @@ or (NgayCapNhat &gt; ? and NgayCapNhat &lt;= ?)</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Extract WEBTOWER\OLE DB Destination 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Extract WEBTOWER\KhachHang_WebTower9">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract WEBTOWER\OLE DB Destination 2">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
