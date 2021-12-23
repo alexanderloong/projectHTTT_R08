@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package2"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{8D5B1DE1-30DA-4D6B-A967-85F0EAD68C97}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{B28E5430-7807-40D8-BC23-449F94BE53E1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADYM69oZN0JJo3L3+dQUkx5agcRmSQ/rRr33m++lis8ywAAAAAOgAAAAAIAACAAAADTdzdGWOofW7IYM/d90Of+nJSbfyWb8q+XzkCzZhb5SBAAAAA/7B59KAnwy6Ak7c8x4m2MQAAAADq1f/n7VmO752S9nomIFHmZovgiB0alBBotvBQ+NSUxejqLbbBsP4XGDUp3Gui3lRiDZIC5vsCXdXwAvq6gKlc</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB69IlKqir9SaAEt3IG1NAFNV+eqXvQSpL9EGqG6ttRCQAAAAAOgAAAAAIAACAAAABQ/p8K2N9OHhwNk4DnvIkRkllM4LW6DXRIaD4hQhLJHxAAAAB5DCfH5WzNn1utvdJ5nFijQAAAAJa3G3S6QHPVAmqViYNns6Lk8+tjNGdMucWz3tX/+L9W8b2EiCcWPy2itxoVSA1do9J9YXJZApl1wV0VUzNJX3I</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAPxkx+Xon46RA9fIyUr78JkEqCWchREJgs067s2CVDmAAAAAAOgAAAAAIAACAAAABW8PR7moQ4NByGvUB52Gq/pIP1BdcNYV9OnWcEDDBuBxAAAADsQ8a476RUSxWK3zlxZWRoQAAAAL+uC0aUalumrgQln1IorwfgUlmXDJIqkd2/d2fnRiF2SZbG1xvNPefarBSevubKxdQBWVYsggGujycYPW145dk</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADbnlPyywuwmCH46nYpae6lBZcxp7FwydGugdE41El7iAAAAAAOgAAAAAIAACAAAACNT0n5utsfKR4zbgznLpQaKz3QeQEHmCWZzQWoNnTpZxAAAACsDEzi19epEI7CGKfhN1frQAAAAB0z1Bwm1kKei6fqzw7rUHZgk7PnStIp/bbO7oRImOFYgsgwacyK2cB0jBO2kenoBOCp/JneGPKIlrjxi/Pojv8</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -63,7 +63,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACQxBVy36iFPD+gThjiz6OHyC3D7VuXeydJ7rw6v9qYyQAAAAAOgAAAAAIAACAAAADWpS9SKDOl4vGzAr9vabhBJSuTPPeoBOWx1zC/ehGKhhAAAADlz41+2Txh62FRN9CZlUmFQAAAAPk5u9BNCjUfhgllNwxxh1NsumyyPl2ciyoIWlGq2nfYNgJjI3hWOpuXNUH+8D5mjSYKIDvupnTEbGyfuQXbMqQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB3YkbMMtS7bwAa8YpQhSHM0PCSNdvCb5YJmpeGX2iF7AAAAAAOgAAAAAIAACAAAACOkO/qzLGrkWNvbfVX6E7DweNolk3FyadLtjq8wSK+nxAAAAC0b9QCqqF6IwB/ohsR6swOQAAAAK35/aXTDdxRbV4+uwkgTc+Zte57KOWjsH3YCPH4oLtw6bOQTJ+RkrSTU5NJRylmrx2MLr+fE4TCiIOLamnasvw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2537,6 +2537,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\Get max MAHD"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{5eb9fd20-cfaf-4431-8238-43176d784fbb}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -2582,6 +2583,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\HoaDon_Jade"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{3010cfb0-2357-4938-b150-f7b132961ada}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -7434,6 +7436,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\Truncate table HoaDon_Error"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{b0bfc226-3801-4171-9e2c-695ecfd272d8}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
