@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package2"
   DTS:PackageType="5"
-  DTS:VersionBuild="14"
-  DTS:VersionGUID="{FEDD80AD-F064-488E-93CF-52D66D6ECFA6}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{CA838AD6-1A4D-4901-BD20-C6C0EC561DC1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAR7A2b25DBchHrFli+PxAteHPzGUOq3579cCP0s2auigAAAAAOgAAAAAIAACAAAADSN/pUnI4VfTYExAPtkax/2EoL01DKUkQgFNhZNrCl9hAAAAADLgYqwMTLNxEwz8pLQ0jJQAAAAOLhJfk+UrIOy5zkhqm7fgjV/XMgdnExVqqNYjWbZ7Z5YDv+WbjyS+GhzuCYnpOyklJrKejUZ5Jc+bno9shEYaM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACTe7g5leRAPFhM8MeiponBRsYfPl9Two54CAT/pp35oQAAAAAOgAAAAAIAACAAAADdvdQ/nn5wLx4q8i+EKC4CiFCldjvXhxh6I1v6ROZwdBAAAABQ7RgkwSzvKThr6yaDH/HmQAAAAF3zSNOfGOZvInwQzJShB9wcXvJkbVOmV6GTr1rT1T9MYRES3Av2QYqGV5o8ruc95PmMaTHAFZkvHvc5uyA+kRk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABazoxztKKBgRQ4Yp9vqWbq4Vk4M8deKz/lpZefiL8KNwAAAAAOgAAAAAIAACAAAAD7yJqgfIaJqRngneTymY2+LOvR3vgXDrKs3bOkooBXWRAAAACBRVzEANUqv3HH6JnmpeMjQAAAAABSGPAteTtNzQyGBG+7RUQJvZWg8QfIHzaydK8cefiDu9daL7mHW37xKKxl9tbTH1vl0mRqi3Sy4NERh7LmY7o</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAARJXWJXBLBW792IqC5HTRqwChpWRpoLsHDYSGiGQxQogAAAAAOgAAAAAIAACAAAAAOmN03SlOhVTAHZCWBCjwT5zANkVg8tHLGU+KETuM2GBAAAAAc6o5uOOAHcGtNuTZBoCM3QAAAAGQrAKMSz7gk+ZjpIhicW2sqiI+DJGZZGCJo04zIBK+3O42ly38xdoQ7KJdWr9LMJj9i/0OkQ57DLiKvBVRYOCk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -63,7 +63,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD80Uunqy30AEdnVN/2pNWyfnKhF5XOFO9sguUwdspbRgAAAAAOgAAAAAIAACAAAABnUCp7SK1ayojUnG32tonFHQ6+xdMPFiEA3/9TvMbhQhAAAACZKa4ex4xHg2hpGrzBZ2r3QAAAAPhJMOYLnvtgQgPjMUqusg5/tZmw0pXmIqoyyOAuWeZ45ywQleLt5xMuzBliljhHka/H9Ub+rJx4ECqGKDGBwjk</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADCMozNu/InTTCB/ovHEQwxHBTTexYgIzjzajpb0FZGhQAAAAAOgAAAAAIAACAAAAA/Q4fBPpG/x7HsIF+d484G15bLuvCukPPW0j8R5dRdHhAAAACZWB5kBDvE5kU9al933a/2QAAAAESyC2u3HZ06V6KpOam1QbEyxLXR6BJhU9DiejC1+5W1DblpYFydAAuR97Dj5DoosYZocI7YQNpLgdvG5TXRYxg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2727,13 +2727,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\Execute SQL Task"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{189ED1E1-6D36-499E-B35E-7453F367954C}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute SQL Task"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -2750,7 +2749,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:LocaleID="-1"
       DTS:ObjectName="Get max MaCH"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -2767,7 +2766,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\Get max MaLoaiCH"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{80866138-e905-4411-8669-a804a43352a8}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -2790,13 +2788,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\Get max MaLoaiSP"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{787F3AB9-C3F9-4379-AE6B-9DF78C8C10AE}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Get max MaLoaiSP"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -2813,7 +2810,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\Get max MaNuoc"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{eb798ae9-f233-4c4e-b45d-ceb746f9d5c3}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -2836,13 +2832,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\Get max MaSP"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{29D59D27-9B00-47C8-8C86-B9034701426B}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Get max MaSP"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -2859,7 +2854,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\LoaiCuaHang_Jupiter"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{a69664d0-3683-4902-a2f3-c577de700df5}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4718,7 +4712,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\LoaiSanPham_Jupiter"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{FBBF07C6-0F42-49AA-BF3B-C39FF8AF89E6}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6578,7 +6571,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\Nuoc_Jupiter"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{A77CB009-A985-479B-8226-042A3E479A9B}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -8437,7 +8429,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\SanPham_Jupiter"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{CA0711EC-87C4-4CE5-A56F-3F5A6F0A5B40}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -10728,13 +10719,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       DTS:refId="Package\Truncate SanPham_Error"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{6847631E-4B90-4A15-9E7A-996C15EE5815}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate SanPham_Error"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -10814,13 +10804,53 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="158.03076923077,41.3538461538462"
+          Id="Package\CuaHang_Jupiter"
+          TopLeft="279.9999965521,326.917084298741" />
+        <NodeLayout
+          Size="161.723076923077,41.3538461538462"
+          Id="Package\Execute SQL Task"
+          TopLeft="274.28571090818,189.662391025162" />
+        <NodeLayout
+          Size="147.692307692308,41.3538461538462"
+          Id="Package\Get max MaCH"
+          TopLeft="280.714282257591,262.152129412965" />
+        <NodeLayout
+          Size="166.892307692308,41.3538461538462"
+          Id="Package\Get max MaLoaiCH"
+          TopLeft="254.999996859949,45.020515965872" />
+        <NodeLayout
           Size="165.415384615385,41.3538461538462"
           Id="Package\Get max MaLoaiSP"
           TopLeft="52.1428565007739,43.3333309138263" />
         <NodeLayout
+          Size="158.03076923077,41.3538461538462"
+          Id="Package\Get max MaNuoc"
+          TopLeft="454.285708691673,43.3333309138264" />
+        <NodeLayout
+          Size="146.215384615385,41.3538461538462"
+          Id="Package\Get max MaSP"
+          TopLeft="54.9999993227337,262.888874210547" />
+        <NodeLayout
+          Size="176.492307692308,41.3538461538462"
+          Id="Package\LoaiCuaHang_Jupiter"
+          TopLeft="250.714282627008,111.464956700406" />
+        <NodeLayout
           Size="177.969230769231,41.3538461538462"
           Id="Package\LoaiSanPham_Jupiter"
           TopLeft="42.8571423294031,112.666660375949" />
+        <NodeLayout
+          Size="138.83076923077,41.3538461538462"
+          Id="Package\Nuoc_Jupiter"
+          TopLeft="462.857137157554,107.547006046851" />
+        <NodeLayout
+          Size="158.769230769231,41.3538461538462"
+          Id="Package\SanPham_Jupiter"
+          TopLeft="50.7142850897934,330.055537126978" />
+        <NodeLayout
+          Size="195.692307692308,41.3538461538462"
+          Id="Package\Truncate SanPham_Error"
+          TopLeft="29.999999630582,189.944433838939" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="133.346153261242,84.6871770676725">
@@ -10843,14 +10873,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="166.892307692308,41.3538461538462"
-          Id="Package\Get max MaLoaiCH"
-          TopLeft="254.999996859949,45.020515965872" />
-        <NodeLayout
-          Size="176.492307692308,41.3538461538462"
-          Id="Package\LoaiCuaHang_Jupiter"
-          TopLeft="250.714282627008,111.464956700406" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
           TopLeft="338.703293589632,86.3743621197182">
@@ -10873,14 +10895,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="146.215384615385,41.3538461538462"
-          Id="Package\Get max MaSP"
-          TopLeft="54.9999993227337,262.888874210547" />
-        <NodeLayout
-          Size="158.769230769231,41.3538461538462"
-          Id="Package\SanPham_Jupiter"
-          TopLeft="50.7142850897934,330.055537126978" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
           TopLeft="129.103296052418,304.242720364393">
@@ -10903,10 +10917,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="195.692307692308,41.3538461538462"
-          Id="Package\Truncate SanPham_Error"
-          TopLeft="29.999999630582,189.944433838939" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
           TopLeft="127.976922553581,231.298279992785">
@@ -10929,14 +10939,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="158.03076923077,41.3538461538462"
-          Id="Package\Get max MaNuoc"
-          TopLeft="454.285708691673,43.3333309138264" />
-        <NodeLayout
-          Size="138.83076923077,41.3538461538462"
-          Id="Package\Nuoc_Jupiter"
-          TopLeft="462.857137157554,107.547006046851" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
           TopLeft="532.786807539999,84.6871770676724">
@@ -10959,14 +10961,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="147.692307692308,41.3538461538462"
-          Id="Package\Get max MaCH"
-          TopLeft="280.714282257591,262.152129412965" />
-        <NodeLayout
-          Size="161.723076923077,41.3538461538462"
-          Id="Package\Execute SQL Task"
-          TopLeft="274.28571090818,189.662391025162" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
           TopLeft="354.853842736732,231.016237179008">
@@ -10989,10 +10983,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="158.03076923077,41.3538461538462"
-          Id="Package\CuaHang_Jupiter"
-          TopLeft="279.9999965521,326.917084298741" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
           TopLeft="356.787908635615,303.505975566812">
@@ -11019,1194 +11009,80 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\LoaiSanPham_Jupiter">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="155.076923076924,41.3538461538462"
-          Id="Package\LoaiSanPham_Jupiter\Load from Stage"
-          TopLeft="269.821425248867,32.4999981853697" />
-        <NodeLayout
-          Size="169.846153846154,41.3538461538462"
-          Id="Package\LoaiSanPham_Jupiter\Handle generate ID"
-          TopLeft="447.321423063145,329.513870490554" />
-        <NodeLayout
-          Size="166.892307692308,41.3538461538462"
-          Id="Package\LoaiSanPham_Jupiter\Add column Nguon"
-          TopLeft="270.535710954357,100.208327738223" />
-        <NodeLayout
-          Size="189.046153846154,41.3538461538462"
-          Id="Package\LoaiSanPham_Jupiter\Check MaLoaiSP in NDS"
-          TopLeft="261.607139635732,169.72221274582" />
-        <EdgeLayout
-          Id="Package\LoaiSanPham_Jupiter.Paths[Derived Column Output]"
-          TopLeft="355.05604067966,141.56217389207">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,28.1600388537503"
-              Start="0,0"
-              End="0,20.6600388537503">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.6600388537503" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="200.123076923077,41.3538461538462"
-          Id="Package\LoaiSanPham_Jupiter\Add column NgayCapNhat"
-          TopLeft="101.785713032332,240.138875480788" />
-        <EdgeLayout
-          Id="Package\LoaiSanPham_Jupiter.Paths[Lookup Match Output]"
-          TopLeft="356.130216558809,211.076058899666">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-154.282965064938,29.0628165811216"
-              Start="0,0"
-              End="-154.282965064938,21.5628165811216">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,10.5314082905608" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,10.5314082905608"
-                    Point2="0,14.5314082905608"
-                    Point3="-4,14.5314082905608" />
-                  <mssgle:LineSegment
-                    End="-150.282965064938,14.5314082905608" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-150.282965064938,14.5314082905608"
-                    Point2="-154.282965064938,14.5314082905608"
-                    Point3="-154.282965064938,18.5314082905608" />
-                  <mssgle:LineSegment
-                    End="-154.282965064938,21.5628165811216" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-125.332869251219,19.5314082905608,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="248.861538461539,41.3538461538462"
-          Id="Package\LoaiSanPham_Jupiter\Add column NgayCapNhat, NgayTao"
-          TopLeft="405.357137865605,243.081185895041" />
-        <EdgeLayout
-          Id="Package\LoaiSanPham_Jupiter.Paths[Lookup Error Output]"
-          TopLeft="386.304575533168,211.076058899666">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="143.483331563207,32.0051269953746"
-              Start="0,0"
-              End="143.483331563207,24.5051269953746">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,8.96321283208396" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,8.96321283208396"
-                    Point2="0,12.963212832084"
-                    Point3="4,12.963212832084" />
-                  <mssgle:LineSegment
-                    End="139.483331563207,12.963212832084" />
-                  <mssgle:CubicBezierSegment
-                    Point1="139.483331563207,12.963212832084"
-                    Point2="143.483331563207,12.963212832084"
-                    Point3="143.483331563207,16.963212832084" />
-                  <mssgle:LineSegment
-                    End="143.483331563207,24.5051269953746" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="25.8752790628533,17.963212832084,91.7327734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="135.138461538462,41.3538461538462"
-          Id="Package\LoaiSanPham_Jupiter\Update data"
-          TopLeft="133.035712647522,323.48930121821" />
-        <EdgeLayout
-          Id="Package\LoaiSanPham_Jupiter.Paths[Derived Column Output1]"
-          TopLeft="201.226097455312,281.492721634634">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,41.9965795835766"
-              Start="0,0"
-              End="0,34.4965795835766">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.4965795835766" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="169.107692307693,41.3538461538462"
-          Id="Package\LoaiSanPham_Jupiter\OLE DB Destination"
-          TopLeft="668.749991765061,330.26601369471" />
-        <EdgeLayout
-          Id="Package\LoaiSanPham_Jupiter.Paths[OLE DB Source Output]"
-          TopLeft="350.67087579392,73.8538443392159">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,26.3544833990075"
-              Start="0,0"
-              End="0,18.8544833990075">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.8544833990075" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiSanPham_Jupiter.Paths[Derived Column Output2]"
-          TopLeft="531.016203541298,284.435032048887">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,45.0788384416676"
-              Start="0,0"
-              End="0,37.5788384416676">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,37.5788384416676" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiSanPham_Jupiter.Paths[Output 0]"
-          TopLeft="617.167576909299,350.566865169555">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="51.5824148557624,0"
-              Start="0,0"
-              End="44.0824148557624,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="44.0824148557624,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\LoaiSanPham_Jupiter\Load from Stage">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\LoaiSanPham_Jupiter\Check MaLoaiSP in NDS">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\LoaiSanPham_Jupiter\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\LoaiCuaHang_Jupiter">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="155.076923076924,41.3538461538462"
-          Id="Package\LoaiCuaHang_Jupiter\Load from Stage"
-          TopLeft="289.57142115691,33.8888871291651" />
-        <NodeLayout
-          Size="169.846153846154,41.3538461538462"
-          Id="Package\LoaiCuaHang_Jupiter\Handle generate ID"
-          TopLeft="463.999986384465,321.999990551288" />
-        <NodeLayout
-          Size="166.892307692308,41.3538461538462"
-          Id="Package\LoaiCuaHang_Jupiter\Add column Nguon"
-          TopLeft="286.999991578322,100.999997036274" />
-        <NodeLayout
-          Size="172.061538461539,41.3538461538462"
-          Id="Package\LoaiCuaHang_Jupiter\Check MaCH in NDS"
-          TopLeft="281.999991725041,165.999995128925" />
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_Jupiter.Paths[Derived Column Output]"
-          TopLeft="369.238453190143,142.35384319012">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,23.6461519388053"
-              Start="0,0"
-              End="0,16.1461519388053">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.1461519388053" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="200.123076923077,41.3538461538462"
-          Id="Package\LoaiCuaHang_Jupiter\Add column NgayCapNhat"
-          TopLeft="116.999996566772,250.9999926347" />
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_Jupiter.Paths[Lookup Match Output]"
-          TopLeft="368.03076095581,207.353841282771">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-150.9692259275,43.6461513519287"
-              Start="0,0"
-              End="-150.9692259275,36.1461513519287">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.8230756759643" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.8230756759643"
-                    Point2="0,21.8230756759643"
-                    Point3="-4,21.8230756759643" />
-                  <mssgle:LineSegment
-                    End="-146.9692259275,21.8230756759643" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-146.9692259275,21.8230756759643"
-                    Point2="-150.9692259275,21.8230756759643"
-                    Point3="-150.9692259275,25.8230756759643" />
-                  <mssgle:LineSegment
-                    End="-150.9692259275,36.1461513519287" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-123.6759996825,26.8230756759643,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="135.138461538462,41.3538461538462"
-          Id="Package\LoaiCuaHang_Jupiter\Update data"
-          TopLeft="153.999995481051,325.153837262667" />
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_Jupiter.Paths[Derived Column Output1]"
-          TopLeft="219.315380639296,292.353838788546">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,32.799998474121"
-              Start="0,0"
-              End="0,25.299998474121">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.299998474121" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="248.861538461539,41.3538461538462"
-          Id="Package\LoaiCuaHang_Jupiter\Add column NgayCapNhat, NgayTao"
-          TopLeft="421.999987616906,253.169226308969" />
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_Jupiter.Paths[Lookup Error Output]"
-          TopLeft="395.3743506994,207.353841282771">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="151.056406148275,45.8153850261981"
-              Start="0,0"
-              End="151.056406148275,38.3153850261981">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,14.5794211991428" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,14.5794211991428"
-                    Point2="0,18.5794211991428"
-                    Point3="4,18.5794211991428" />
-                  <mssgle:LineSegment
-                    End="147.056406148275,18.5794211991428" />
-                  <mssgle:CubicBezierSegment
-                    Point1="147.056406148275,18.5794211991428"
-                    Point2="151.056406148275,18.5794211991428"
-                    Point3="151.056406148275,22.5794211991428" />
-                  <mssgle:LineSegment
-                    End="151.056406148275,38.3153850261981" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="29.6618163553872,23.5794211991428,91.7327734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="169.107692307693,41.3538461538462"
-          Id="Package\LoaiCuaHang_Jupiter\OLE DB Destination"
-          TopLeft="687.999979811448,322.461532358023" />
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_Jupiter.Paths[OLE DB Source Output]"
-          TopLeft="368.778014059924,75.2427332830112">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,25.7572637532624"
-              Start="0,0"
-              End="0,18.2572637532624">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.2572637532624" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_Jupiter.Paths[Derived Column Output2]"
-          TopLeft="547.676910077608,294.523072462815">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,27.4769180884729"
-              Start="0,0"
-              End="0,19.9769180884729">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.9769180884729" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_Jupiter.Paths[Output 0]"
-          TopLeft="633.846140230619,342.907684531579">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="54.1538395808294,0"
-              Start="0,0"
-              End="46.6538395808294,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="46.6538395808294,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\LoaiCuaHang_Jupiter\Load from Stage">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\LoaiCuaHang_Jupiter\Check MaCH in NDS">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\LoaiCuaHang_Jupiter\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\SanPham_Jupiter">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="179.446153846154,41.3538461538462"
-          Id="Package\SanPham_Jupiter\Load data from Stage"
-          TopLeft="159.999995304988,25.1666659281804" />
-        <NodeLayout
-          Size="169.846153846154,41.3538461538462"
-          Id="Package\SanPham_Jupiter\Handle generate ID"
-          TopLeft="372.499989069425,406.666654733511" />
-        <NodeLayout
-          Size="166.892307692308,41.3538461538462"
-          Id="Package\SanPham_Jupiter\Add column Nguon"
-          TopLeft="164.999995158269,101.589740753174" />
-        <NodeLayout
-          Size="189.046153846154,41.3538461538462"
-          Id="Package\SanPham_Jupiter\Check MaLoaiSP in NDS"
-          TopLeft="159.999995304988,171.589738699106" />
-        <EdgeLayout
-          Id="Package\SanPham_Jupiter.Paths[Derived Column Output]"
-          TopLeft="251.484610616244,142.94358690702">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,28.6461517920863"
-              Start="0,0"
-              End="0,21.1461517920863">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.1461517920863" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="169.846153846154,41.3538461538462"
-          Id="Package\SanPham_Jupiter\Check MaSP in NDS"
-          TopLeft="177.499994791471,256.833326266362" />
-        <EdgeLayout
-          Id="Package\SanPham_Jupiter.Paths[Lookup Match Output]"
-          TopLeft="258.473071971307,212.943584852952">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,43.8897414134098"
-              Start="0,0"
-              End="0,36.3897414134098">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.3897414134098" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,12.3901832067049,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="200.123076923077,41.3538461538462"
-          Id="Package\SanPham_Jupiter\Add column NgayCapNhat"
-          TopLeft="38.3333322084867,332.589736791758" />
-        <EdgeLayout
-          Id="Package\SanPham_Jupiter.Paths[Lookup Match Output1]"
-          TopLeft="262.423071714548,298.187172420209">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-124.028201044523,34.4025643715491"
-              Start="0,0"
-              End="-124.028201044523,26.9025643715491">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,13.2012821857745" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13.2012821857745"
-                    Point2="0,17.2012821857745"
-                    Point3="-4,17.2012821857745" />
-                  <mssgle:LineSegment
-                    End="-120.028201044523,17.2012821857745" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-120.028201044523,17.2012821857745"
-                    Point2="-124.028201044523,17.2012821857745"
-                    Point3="-124.028201044523,21.2012821857745" />
-                  <mssgle:LineSegment
-                    End="-124.028201044523,26.9025643715491" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-110.205487241011,22.2012821857745,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="135.138461538462,41.3538461538462"
-          Id="Package\SanPham_Jupiter\Update data"
-          TopLeft="68.333331328172,400.679480405955" />
-        <EdgeLayout
-          Id="Package\SanPham_Jupiter.Paths[Derived Column Output1]"
-          TopLeft="137.148716383714,373.943582945604">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,26.7358974603507"
-              Start="0,0"
-              End="0,19.2358974603507">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.2358974603507" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="248.861538461539,41.3538461538462"
-          Id="Package\SanPham_Jupiter\Add column NgayCapNhat, NgayTao"
-          TopLeft="334.166656860939,336.589740899894" />
-        <EdgeLayout
-          Id="Package\SanPham_Jupiter.Paths[Lookup Error Output]"
-          TopLeft="289.397430688907,298.187172420209">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="169.199995402801,38.4025684796846"
-              Start="0,0"
-              End="169.199995402801,30.9025684796846">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,11.5760597207623" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,11.5760597207623"
-                    Point2="0,15.5760597207623"
-                    Point3="4,15.5760597207623" />
-                  <mssgle:LineSegment
-                    End="165.199995402801,15.5760597207623" />
-                  <mssgle:CubicBezierSegment
-                    Point1="165.199995402801,15.5760597207623"
-                    Point2="169.199995402801,15.5760597207623"
-                    Point3="169.199995402801,19.5760597207623" />
-                  <mssgle:LineSegment
-                    End="169.199995402801,30.9025684796846" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="38.7336109826505,20.5760597207623,91.7327734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="169.107692307693,41.3538461538462"
-          Id="Package\SanPham_Jupiter\OLE DB Destination"
-          TopLeft="574.166649818421,409.089738772466" />
-        <NodeLayout
-          Size="178.707692307693,41.3538461538462"
-          Id="Package\SanPham_Jupiter\OLE DB Destination 1"
-          TopLeft="474.999986061684,174.051278334398" />
-        <EdgeLayout
-          Id="Package\SanPham_Jupiter.Paths[Lookup Error Output1]"
-          TopLeft="349.046149151142,193.497431593675">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="125.953836910542,0"
-              Start="0,0"
-              End="118.453836910542,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="118.453836910542,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="13.3605317365209,5,91.7327734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\SanPham_Jupiter.Paths[OLE DB Source Output]"
-          TopLeft="249.084610616244,66.5205120820265">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,35.0692286711472"
-              Start="0,0"
-              End="0,27.5692286711472">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.5692286711472" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\SanPham_Jupiter.Paths[Derived Column Output2]"
-          TopLeft="458.010246042105,377.94358705374">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,28.7230676797712"
-              Start="0,0"
-              End="0,21.2230676797712">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.2230676797712" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\SanPham_Jupiter.Paths[Output 0]"
-          TopLeft="542.346142915579,428.555119829912">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="31.820506902842,0"
-              Start="0,0"
-              End="24.320506902842,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="24.320506902842,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\SanPham_Jupiter\Load data from Stage">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\SanPham_Jupiter\Check MaLoaiSP in NDS">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\SanPham_Jupiter\Check MaSP in NDS">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\SanPham_Jupiter\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\SanPham_Jupiter\OLE DB Destination 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Nuoc_Jupiter">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="155.076923076924,41.3538461538462"
-          Id="Package\Nuoc_Jupiter\Load from Stage"
-          TopLeft="21.9999993544358,39.999998826247" />
-        <NodeLayout
-          Size="166.892307692308,41.3538461538462"
-          Id="Package\Nuoc_Jupiter\Add column Nguon"
-          TopLeft="233.999993133545,36.9999989142785" />
-        <EdgeLayout
-          Id="Package\Nuoc_Jupiter.Paths[OLE DB Source Output]"
-          TopLeft="177.076922431359,59.1769219471858">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="56.9230707021858,0"
-              Start="0,0"
-              End="49.4230707021858,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="49.4230707021858,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="181.661538461539,41.3538461538462"
-          Id="Package\Nuoc_Jupiter\Check MaNuoc in NDS"
-          TopLeft="226.999993338952,108.999996801523" />
-        <EdgeLayout
-          Id="Package\Nuoc_Jupiter.Paths[Derived Column Output]"
-          TopLeft="317.63845477471,78.3538450681246">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,30.6461517333985"
-              Start="0,0"
-              End="0,23.1461517333985">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.1461517333985" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="200.123076923077,41.3538461538462"
-          Id="Package\Nuoc_Jupiter\Add column NgayCapNhat"
-          TopLeft="93.9999972416804,196.999994219266" />
-        <EdgeLayout
-          Id="Package\Nuoc_Jupiter.Paths[Lookup Match Output]"
-          TopLeft="317.830762569721,150.353842955369">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-123.769226866502,46.6461512638971"
-              Start="0,0"
-              End="-123.769226866502,39.1461512638971">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.3230756319486" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,19.3230756319486"
-                    Point2="0,23.3230756319486"
-                    Point3="-4,23.3230756319486" />
-                  <mssgle:LineSegment
-                    End="-119.769226866502,23.3230756319486" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-119.769226866502,23.3230756319486"
-                    Point2="-123.769226866502,23.3230756319486"
-                    Point3="-123.769226866502,27.3230756319486" />
-                  <mssgle:LineSegment
-                    End="-123.769226866502,39.1461512638971" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-110.076000152001,28.3230756319486,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="135.138461538462,41.3538461538462"
-          Id="Package\Nuoc_Jupiter\Update data"
-          TopLeft="122.99999639071,267.999992135855" />
-        <EdgeLayout
-          Id="Package\Nuoc_Jupiter.Paths[Derived Column Output1]"
-          TopLeft="192.31538143158,238.353840373113">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,29.6461517627423"
-              Start="0,0"
-              End="0,22.1461517627423">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.1461517627423" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="248.861538461539,41.3538461538462"
-          Id="Package\Nuoc_Jupiter\Add column NgayCapNhat, NgayTao"
-          TopLeft="391.999988497221,200.307687730056" />
-        <EdgeLayout
-          Id="Package\Nuoc_Jupiter.Paths[Lookup Error Output]"
-          TopLeft="346.77435231331,150.353842955369">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="169.656405414679,49.9538447746863"
-              Start="0,0"
-              End="169.656405414679,42.4538447746863">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.2432168818306" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.2432168818306"
-                    Point2="0,20.2432168818306"
-                    Point3="4,20.2432168818306" />
-                  <mssgle:LineSegment
-                    End="165.656405414679,20.2432168818306" />
-                  <mssgle:CubicBezierSegment
-                    Point1="165.656405414679,20.2432168818306"
-                    Point2="169.656405414679,20.2432168818306"
-                    Point3="169.656405414679,24.2432168818306" />
-                  <mssgle:LineSegment
-                    End="169.656405414679,42.4538447746863" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="38.9618159885897,25.2432168818306,91.7327734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="169.846153846154,41.3538461538462"
-          Id="Package\Nuoc_Jupiter\Handle generate ID"
-          TopLeft="430.999987352811,267.999992135855" />
-        <EdgeLayout
-          Id="Package\Nuoc_Jupiter.Paths[Derived Column Output2]"
-          TopLeft="516.176911001939,241.661533883902">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,26.338458251953"
-              Start="0,0"
-              End="0,18.838458251953">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.838458251953" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="169.107692307693,41.3538461538462"
-          Id="Package\Nuoc_Jupiter\OLE DB Destination"
-          TopLeft="669.999980339637,271.999993426983" />
-        <EdgeLayout
-          Id="Package\Nuoc_Jupiter.Paths[Output 0]"
-          TopLeft="600.846141198965,290.676915858342">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="69.1538391406721,0"
-              Start="0,0"
-              End="61.6538391406721,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="61.6538391406721,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Nuoc_Jupiter\Load from Stage">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Nuoc_Jupiter\Check MaNuoc in NDS">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Nuoc_Jupiter\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
     design-time-name="Package\CuaHang_Jupiter">
     <LayoutInfo>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="179.446153846154,41.3538461538462"
-          Id="Package\CuaHang_Jupiter\Load data from Stage"
-          TopLeft="61.9999981806828,25.9999992370605" />
+          Size="168.369230769231,41.3538461538462"
+          Id="Package\CuaHang_Jupiter\Check Nuoc in NDS"
+          TopLeft="284.99999163701,99.9999970656175" />
+        <NodeLayout
+          Size="169.846153846154,41.3538461538462"
+          Id="Package\CuaHang_Jupiter\Handle generate ID"
+          TopLeft="480.99998588562,418.215378042368" />
+        <NodeLayout
+          Size="178.707692307693,41.3538461538462"
+          Id="Package\CuaHang_Jupiter\OLE DB Destination 1 1"
+          TopLeft="533.999984330397,171.569234407865" />
+        <NodeLayout
+          Size="203.076923076924,41.3538461538462"
+          Id="Package\CuaHang_Jupiter\Add coliumn NgayCapNhat"
+          TopLeft="113.999996654804,336.015375665518" />
         <NodeLayout
           Size="152.123076923077,41.3538461538462"
           Id="Package\CuaHang_Jupiter\Derived Column"
           TopLeft="287.999991548978,26.9999992077167" />
+        <NodeLayout
+          Size="177.23076923077,41.3538461538462"
+          Id="Package\CuaHang_Jupiter\Check LoaiCH in NDS"
+          TopLeft="284.99999163701,175.999994835487" />
+        <NodeLayout
+          Size="172.061538461539,41.3538461538462"
+          Id="Package\CuaHang_Jupiter\Check MaCH in NDS"
+          TopLeft="290.999991460947,250.9999926347" />
+        <NodeLayout
+          Size="248.861538461539,41.3538461538462"
+          Id="Package\CuaHang_Jupiter\Add column NgayTao, NgayCapNhat"
+          TopLeft="442.999987000685,338.215380389874" />
+        <NodeLayout
+          Size="179.446153846154,41.3538461538462"
+          Id="Package\CuaHang_Jupiter\Load data from Stage"
+          TopLeft="61.9999981806828,25.9999992370605" />
+        <NodeLayout
+          Size="169.107692307693,41.3538461538462"
+          Id="Package\CuaHang_Jupiter\OLE DB Destination"
+          TopLeft="725.999978696383,417.646147419856" />
+        <NodeLayout
+          Size="178.707692307693,41.3538461538462"
+          Id="Package\CuaHang_Jupiter\OLE DB Destination 1"
+          TopLeft="529.999984447773,101.99999700693" />
+        <NodeLayout
+          Size="135.138461538462,41.3538461538462"
+          Id="Package\CuaHang_Jupiter\Update data"
+          TopLeft="139.999995891865,413.676912953303" />
+        <EdgeLayout
+          Id="Package\CuaHang_Jupiter.Paths[Output 0]"
+          TopLeft="650.846139731774,438.607685808035">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="75.1538389646091,0"
+              Start="0,0"
+              End="67.6538389646091,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="67.6538389646091,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\CuaHang_Jupiter.Paths[OLE DB Source Output]"
           TopLeft="241.446152026837,47.1769222993117">
@@ -12229,92 +11105,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168.369230769231,41.3538461538462"
-          Id="Package\CuaHang_Jupiter\Check Nuoc in NDS"
-          TopLeft="284.99999163701,99.9999970656175" />
-        <EdgeLayout
-          Id="Package\CuaHang_Jupiter.Paths[Derived Column Output]"
-          TopLeft="366.623068516071,68.3538453615629">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,31.6461517040546"
-              Start="0,0"
-              End="0,24.1461517040546">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.1461517040546" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="177.23076923077,41.3538461538462"
-          Id="Package\CuaHang_Jupiter\Check LoaiCH in NDS"
-          TopLeft="284.99999163701,175.999994835487" />
-        <EdgeLayout
-          Id="Package\CuaHang_Jupiter.Paths[Lookup Match Output]"
-          TopLeft="371.39999163701,141.353843219464">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34.6461516160232"
-              Start="0,0"
-              End="0,27.1461516160232">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.1461516160232" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,7.76838830801159,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="172.061538461539,41.3538461538462"
-          Id="Package\CuaHang_Jupiter\Check MaCH in NDS"
-          TopLeft="290.999991460947,250.9999926347" />
-        <EdgeLayout
-          Id="Package\CuaHang_Jupiter.Paths[Lookup Match Output1]"
-          TopLeft="375.323068472055,217.353840989333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,33.6461516453669"
-              Start="0,0"
-              End="0,26.1461516453669">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.1461516453669" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,7.26838832268344,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="203.076923076924,41.3538461538462"
-          Id="Package\CuaHang_Jupiter\Add coliumn NgayCapNhat"
-          TopLeft="113.999996654804,336.015375665518" />
         <EdgeLayout
           Id="Package\CuaHang_Jupiter.Paths[Lookup Match Output2]"
           TopLeft="377.030760691716,292.353838788546">
@@ -12351,36 +11141,102 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="135.138461538462,41.3538461538462"
-          Id="Package\CuaHang_Jupiter\Update data"
-          TopLeft="139.999995891865,413.676912953303" />
         <EdgeLayout
-          Id="Package\CuaHang_Jupiter.Paths[Derived Column Output1]"
-          TopLeft="211.55384242718,377.369221819364">
+          Id="Package\CuaHang_Jupiter.Paths[Lookup Match Output1]"
+          TopLeft="375.323068472055,217.353840989333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,36.3076911339393"
+              EndConnector="0,33.6461516453669"
               Start="0,0"
-              End="0,28.8076911339393">
+              End="0,26.1461516453669">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.8076911339393" />
+                    End="0,26.1461516453669" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,7.26838832268344,96.3827734375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="248.861538461539,41.3538461538462"
-          Id="Package\CuaHang_Jupiter\Add column NgayTao, NgayCapNhat"
-          TopLeft="442.999987000685,338.215380389874" />
+        <EdgeLayout
+          Id="Package\CuaHang_Jupiter.Paths[Lookup Match Output]"
+          TopLeft="371.39999163701,141.353843219464">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34.6461516160232"
+              Start="0,0"
+              End="0,27.1461516160232">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.1461516160232" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,7.76838830801159,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\CuaHang_Jupiter.Paths[Lookup Error Output2]"
+          TopLeft="462.230760867779,194.461537698599">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="71.7692234626185,0"
+              Start="0,0"
+              End="64.2692234626185,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="64.2692234626185,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-13.7317749874407,5,91.7327734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\CuaHang_Jupiter.Paths[Lookup Error Output1]"
+          TopLeft="453.36922240624,121.676920113197">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="76.6307620415323,0"
+              Start="0,0"
+              End="69.1307620415323,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="69.1307620415323,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-11.3010056979839,5,91.7327734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\CuaHang_Jupiter.Paths[Lookup Error Output]"
           TopLeft="404.374350435306,292.353838788546">
@@ -12417,10 +11273,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="169.846153846154,41.3538461538462"
-          Id="Package\CuaHang_Jupiter\Handle generate ID"
-          TopLeft="480.99998588562,418.215378042368" />
         <EdgeLayout
           Id="Package\CuaHang_Jupiter.Paths[Derived Column Output2]"
           TopLeft="566.676909520076,379.56922654372">
@@ -12443,24 +11295,20 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="169.107692307693,41.3538461538462"
-          Id="Package\CuaHang_Jupiter\OLE DB Destination"
-          TopLeft="725.999978696383,417.646147419856" />
         <EdgeLayout
-          Id="Package\CuaHang_Jupiter.Paths[Output 0]"
-          TopLeft="650.846139731774,438.607685808035">
+          Id="Package\CuaHang_Jupiter.Paths[Derived Column Output1]"
+          TopLeft="211.55384242718,377.369221819364">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="75.1538389646091,0"
+              EndConnector="0,36.3076911339393"
               Start="0,0"
-              End="67.6538389646091,0">
+              End="0,28.8076911339393">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="67.6538389646091,0" />
+                    End="0,28.8076911339393" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12469,67 +11317,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="178.707692307693,41.3538461538462"
-          Id="Package\CuaHang_Jupiter\OLE DB Destination 1"
-          TopLeft="529.999984447773,101.99999700693" />
         <EdgeLayout
-          Id="Package\CuaHang_Jupiter.Paths[Lookup Error Output1]"
-          TopLeft="453.36922240624,121.676920113197">
+          Id="Package\CuaHang_Jupiter.Paths[Derived Column Output]"
+          TopLeft="366.623068516071,68.3538453615629">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="76.6307620415323,0"
+              EndConnector="0,31.6461517040546"
               Start="0,0"
-              End="69.1307620415323,0">
+              End="0,24.1461517040546">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="69.1307620415323,0" />
+                    End="0,24.1461517040546" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-11.3010056979839,5,91.7327734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="178.707692307693,41.3538461538462"
-          Id="Package\CuaHang_Jupiter\OLE DB Destination 1 1"
-          TopLeft="533.999984330397,171.569234407865" />
-        <EdgeLayout
-          Id="Package\CuaHang_Jupiter.Paths[Lookup Error Output2]"
-          TopLeft="462.230760867779,194.461537698599">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="71.7692234626185,0"
-              Start="0,0"
-              End="64.2692234626185,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="64.2692234626185,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-13.7317749874407,5,91.7327734375,11.609375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\CuaHang_Jupiter\Load data from Stage">
+    design-time-name="Package\CuaHang_Jupiter\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12542,12 +11356,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\CuaHang_Jupiter\Check Nuoc in NDS">
+    design-time-name="Package\CuaHang_Jupiter\Check MaCH in NDS">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -12557,10 +11371,23 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\CuaHang_Jupiter\OLE DB Destination 1 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -12570,7 +11397,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -12580,7 +11407,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12588,12 +11415,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\CuaHang_Jupiter\Check MaCH in NDS">
+    design-time-name="Package\CuaHang_Jupiter\Check Nuoc in NDS">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -12603,7 +11430,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12611,7 +11438,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\CuaHang_Jupiter\OLE DB Destination">
+    design-time-name="Package\CuaHang_Jupiter\Load data from Stage">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12636,8 +11463,1171 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\LoaiCuaHang_Jupiter">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="172.061538461539,41.3538461538462"
+          Id="Package\LoaiCuaHang_Jupiter\Check MaCH in NDS"
+          TopLeft="281.999991725041,165.999995128925" />
+        <NodeLayout
+          Size="169.107692307693,41.3538461538462"
+          Id="Package\LoaiCuaHang_Jupiter\OLE DB Destination"
+          TopLeft="687.999979811448,322.461532358023" />
+        <NodeLayout
+          Size="248.861538461539,41.3538461538462"
+          Id="Package\LoaiCuaHang_Jupiter\Add column NgayCapNhat, NgayTao"
+          TopLeft="421.999987616906,253.169226308969" />
+        <NodeLayout
+          Size="166.892307692308,41.3538461538462"
+          Id="Package\LoaiCuaHang_Jupiter\Add column Nguon"
+          TopLeft="286.999991578322,100.999997036274" />
+        <NodeLayout
+          Size="135.138461538462,41.3538461538462"
+          Id="Package\LoaiCuaHang_Jupiter\Update data"
+          TopLeft="153.999995481051,325.153837262667" />
+        <NodeLayout
+          Size="169.846153846154,41.3538461538462"
+          Id="Package\LoaiCuaHang_Jupiter\Handle generate ID"
+          TopLeft="463.999986384465,321.999990551288" />
+        <NodeLayout
+          Size="200.123076923077,41.3538461538462"
+          Id="Package\LoaiCuaHang_Jupiter\Add column NgayCapNhat"
+          TopLeft="116.999996566772,250.9999926347" />
+        <NodeLayout
+          Size="155.076923076924,41.3538461538462"
+          Id="Package\LoaiCuaHang_Jupiter\Load from Stage"
+          TopLeft="289.57142115691,33.8888871291651" />
+        <EdgeLayout
+          Id="Package\LoaiCuaHang_Jupiter.Paths[Derived Column Output]"
+          TopLeft="369.238453190143,142.35384319012">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,23.6461519388053"
+              Start="0,0"
+              End="0,16.1461519388053">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.1461519388053" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiCuaHang_Jupiter.Paths[Output 0]"
+          TopLeft="633.846140230619,342.907684531579">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="54.1538395808294,0"
+              Start="0,0"
+              End="46.6538395808294,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="46.6538395808294,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiCuaHang_Jupiter.Paths[OLE DB Source Output]"
+          TopLeft="368.778014059924,75.2427332830112">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,25.7572637532624"
+              Start="0,0"
+              End="0,18.2572637532624">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.2572637532624" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiCuaHang_Jupiter.Paths[Lookup Match Output]"
+          TopLeft="368.03076095581,207.353841282771">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-150.9692259275,43.6461513519287"
+              Start="0,0"
+              End="-150.9692259275,36.1461513519287">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.8230756759643" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.8230756759643"
+                    Point2="0,21.8230756759643"
+                    Point3="-4,21.8230756759643" />
+                  <mssgle:LineSegment
+                    End="-146.9692259275,21.8230756759643" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-146.9692259275,21.8230756759643"
+                    Point2="-150.9692259275,21.8230756759643"
+                    Point3="-150.9692259275,25.8230756759643" />
+                  <mssgle:LineSegment
+                    End="-150.9692259275,36.1461513519287" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-123.6759996825,26.8230756759643,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiCuaHang_Jupiter.Paths[Lookup Error Output]"
+          TopLeft="395.3743506994,207.353841282771">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="151.056406148275,45.8153850261981"
+              Start="0,0"
+              End="151.056406148275,38.3153850261981">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.5794211991428" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.5794211991428"
+                    Point2="0,18.5794211991428"
+                    Point3="4,18.5794211991428" />
+                  <mssgle:LineSegment
+                    End="147.056406148275,18.5794211991428" />
+                  <mssgle:CubicBezierSegment
+                    Point1="147.056406148275,18.5794211991428"
+                    Point2="151.056406148275,18.5794211991428"
+                    Point3="151.056406148275,22.5794211991428" />
+                  <mssgle:LineSegment
+                    End="151.056406148275,38.3153850261981" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="29.6618163553872,23.5794211991428,91.7327734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiCuaHang_Jupiter.Paths[Derived Column Output2]"
+          TopLeft="547.676910077608,294.523072462815">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27.4769180884729"
+              Start="0,0"
+              End="0,19.9769180884729">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.9769180884729" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiCuaHang_Jupiter.Paths[Derived Column Output1]"
+          TopLeft="219.315380639296,292.353838788546">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32.799998474121"
+              Start="0,0"
+              End="0,25.299998474121">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.299998474121" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\CuaHang_Jupiter\OLE DB Destination 1 1">
+    design-time-name="Package\LoaiCuaHang_Jupiter\Check MaCH in NDS">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LoaiCuaHang_Jupiter\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LoaiCuaHang_Jupiter\Load from Stage">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\LoaiSanPham_Jupiter">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="189.046153846154,41.3538461538462"
+          Id="Package\LoaiSanPham_Jupiter\Check MaLoaiSP in NDS"
+          TopLeft="261.607139635732,169.72221274582" />
+        <NodeLayout
+          Size="169.107692307693,41.3538461538462"
+          Id="Package\LoaiSanPham_Jupiter\OLE DB Destination"
+          TopLeft="668.749991765061,330.26601369471" />
+        <NodeLayout
+          Size="248.861538461539,41.3538461538462"
+          Id="Package\LoaiSanPham_Jupiter\Add column NgayCapNhat, NgayTao"
+          TopLeft="405.357137865605,243.081185895041" />
+        <NodeLayout
+          Size="166.892307692308,41.3538461538462"
+          Id="Package\LoaiSanPham_Jupiter\Add column Nguon"
+          TopLeft="270.535710954357,100.208327738223" />
+        <NodeLayout
+          Size="135.138461538462,41.3538461538462"
+          Id="Package\LoaiSanPham_Jupiter\Update data"
+          TopLeft="133.035712647522,323.48930121821" />
+        <NodeLayout
+          Size="169.846153846154,41.3538461538462"
+          Id="Package\LoaiSanPham_Jupiter\Handle generate ID"
+          TopLeft="447.321423063145,329.513870490554" />
+        <NodeLayout
+          Size="200.123076923077,41.3538461538462"
+          Id="Package\LoaiSanPham_Jupiter\Add column NgayCapNhat"
+          TopLeft="101.785713032332,240.138875480788" />
+        <NodeLayout
+          Size="155.076923076924,41.3538461538462"
+          Id="Package\LoaiSanPham_Jupiter\Load from Stage"
+          TopLeft="269.821425248867,32.4999981853697" />
+        <EdgeLayout
+          Id="Package\LoaiSanPham_Jupiter.Paths[Derived Column Output]"
+          TopLeft="355.05604067966,141.56217389207">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,28.1600388537503"
+              Start="0,0"
+              End="0,20.6600388537503">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.6600388537503" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiSanPham_Jupiter.Paths[Output 0]"
+          TopLeft="617.167576909299,350.566865169555">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="51.5824148557624,0"
+              Start="0,0"
+              End="44.0824148557624,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="44.0824148557624,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiSanPham_Jupiter.Paths[OLE DB Source Output]"
+          TopLeft="350.67087579392,73.8538443392159">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26.3544833990075"
+              Start="0,0"
+              End="0,18.8544833990075">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.8544833990075" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiSanPham_Jupiter.Paths[Lookup Match Output]"
+          TopLeft="356.130216558809,211.076058899666">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-154.282965064938,29.0628165811216"
+              Start="0,0"
+              End="-154.282965064938,21.5628165811216">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.5314082905608" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.5314082905608"
+                    Point2="0,14.5314082905608"
+                    Point3="-4,14.5314082905608" />
+                  <mssgle:LineSegment
+                    End="-150.282965064938,14.5314082905608" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-150.282965064938,14.5314082905608"
+                    Point2="-154.282965064938,14.5314082905608"
+                    Point3="-154.282965064938,18.5314082905608" />
+                  <mssgle:LineSegment
+                    End="-154.282965064938,21.5628165811216" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-125.332869251219,19.5314082905608,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiSanPham_Jupiter.Paths[Lookup Error Output]"
+          TopLeft="386.304575533168,211.076058899666">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="143.483331563207,32.0051269953746"
+              Start="0,0"
+              End="143.483331563207,24.5051269953746">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.96321283208396" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.96321283208396"
+                    Point2="0,12.963212832084"
+                    Point3="4,12.963212832084" />
+                  <mssgle:LineSegment
+                    End="139.483331563207,12.963212832084" />
+                  <mssgle:CubicBezierSegment
+                    Point1="139.483331563207,12.963212832084"
+                    Point2="143.483331563207,12.963212832084"
+                    Point3="143.483331563207,16.963212832084" />
+                  <mssgle:LineSegment
+                    End="143.483331563207,24.5051269953746" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="25.8752790628533,17.963212832084,91.7327734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiSanPham_Jupiter.Paths[Derived Column Output2]"
+          TopLeft="531.016203541298,284.435032048887">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45.0788384416676"
+              Start="0,0"
+              End="0,37.5788384416676">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.5788384416676" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiSanPham_Jupiter.Paths[Derived Column Output1]"
+          TopLeft="201.226097455312,281.492721634634">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,41.9965795835766"
+              Start="0,0"
+              End="0,34.4965795835766">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.4965795835766" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\LoaiSanPham_Jupiter\Check MaLoaiSP in NDS">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LoaiSanPham_Jupiter\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LoaiSanPham_Jupiter\Load from Stage">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Nuoc_Jupiter">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="181.661538461539,41.3538461538462"
+          Id="Package\Nuoc_Jupiter\Check MaNuoc in NDS"
+          TopLeft="226.999993338952,108.999996801523" />
+        <NodeLayout
+          Size="169.107692307693,41.3538461538462"
+          Id="Package\Nuoc_Jupiter\OLE DB Destination"
+          TopLeft="669.999980339637,271.999993426983" />
+        <NodeLayout
+          Size="248.861538461539,41.3538461538462"
+          Id="Package\Nuoc_Jupiter\Add column NgayCapNhat, NgayTao"
+          TopLeft="391.999988497221,200.307687730056" />
+        <NodeLayout
+          Size="166.892307692308,41.3538461538462"
+          Id="Package\Nuoc_Jupiter\Add column Nguon"
+          TopLeft="233.999993133545,36.9999989142785" />
+        <NodeLayout
+          Size="135.138461538462,41.3538461538462"
+          Id="Package\Nuoc_Jupiter\Update data"
+          TopLeft="122.99999639071,267.999992135855" />
+        <NodeLayout
+          Size="169.846153846154,41.3538461538462"
+          Id="Package\Nuoc_Jupiter\Handle generate ID"
+          TopLeft="430.999987352811,267.999992135855" />
+        <NodeLayout
+          Size="200.123076923077,41.3538461538462"
+          Id="Package\Nuoc_Jupiter\Add column NgayCapNhat"
+          TopLeft="93.9999972416804,196.999994219266" />
+        <NodeLayout
+          Size="155.076923076924,41.3538461538462"
+          Id="Package\Nuoc_Jupiter\Load from Stage"
+          TopLeft="21.9999993544358,39.999998826247" />
+        <EdgeLayout
+          Id="Package\Nuoc_Jupiter.Paths[Derived Column Output]"
+          TopLeft="317.63845477471,78.3538450681246">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,30.6461517333985"
+              Start="0,0"
+              End="0,23.1461517333985">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.1461517333985" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Nuoc_Jupiter.Paths[Output 0]"
+          TopLeft="600.846141198965,290.676915858342">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="69.1538391406721,0"
+              Start="0,0"
+              End="61.6538391406721,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="61.6538391406721,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Nuoc_Jupiter.Paths[OLE DB Source Output]"
+          TopLeft="177.076922431359,59.1769219471858">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="56.9230707021858,0"
+              Start="0,0"
+              End="49.4230707021858,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="49.4230707021858,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Nuoc_Jupiter.Paths[Lookup Match Output]"
+          TopLeft="317.830762569721,150.353842955369">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-123.769226866502,46.6461512638971"
+              Start="0,0"
+              End="-123.769226866502,39.1461512638971">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.3230756319486" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.3230756319486"
+                    Point2="0,23.3230756319486"
+                    Point3="-4,23.3230756319486" />
+                  <mssgle:LineSegment
+                    End="-119.769226866502,23.3230756319486" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-119.769226866502,23.3230756319486"
+                    Point2="-123.769226866502,23.3230756319486"
+                    Point3="-123.769226866502,27.3230756319486" />
+                  <mssgle:LineSegment
+                    End="-123.769226866502,39.1461512638971" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-110.076000152001,28.3230756319486,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Nuoc_Jupiter.Paths[Lookup Error Output]"
+          TopLeft="346.77435231331,150.353842955369">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="169.656405414679,49.9538447746863"
+              Start="0,0"
+              End="169.656405414679,42.4538447746863">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.2432168818306" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.2432168818306"
+                    Point2="0,20.2432168818306"
+                    Point3="4,20.2432168818306" />
+                  <mssgle:LineSegment
+                    End="165.656405414679,20.2432168818306" />
+                  <mssgle:CubicBezierSegment
+                    Point1="165.656405414679,20.2432168818306"
+                    Point2="169.656405414679,20.2432168818306"
+                    Point3="169.656405414679,24.2432168818306" />
+                  <mssgle:LineSegment
+                    End="169.656405414679,42.4538447746863" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="38.9618159885897,25.2432168818306,91.7327734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Nuoc_Jupiter.Paths[Derived Column Output2]"
+          TopLeft="516.176911001939,241.661533883902">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26.338458251953"
+              Start="0,0"
+              End="0,18.838458251953">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.838458251953" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Nuoc_Jupiter.Paths[Derived Column Output1]"
+          TopLeft="192.31538143158,238.353840373113">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29.6461517627423"
+              Start="0,0"
+              End="0,22.1461517627423">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.1461517627423" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Nuoc_Jupiter\Check MaNuoc in NDS">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Nuoc_Jupiter\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Nuoc_Jupiter\Load from Stage">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\SanPham_Jupiter">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="189.046153846154,41.3538461538462"
+          Id="Package\SanPham_Jupiter\Check MaLoaiSP in NDS"
+          TopLeft="159.999995304988,171.589738699106" />
+        <NodeLayout
+          Size="169.846153846154,41.3538461538462"
+          Id="Package\SanPham_Jupiter\Handle generate ID"
+          TopLeft="372.499989069425,406.666654733511" />
+        <NodeLayout
+          Size="248.861538461539,41.3538461538462"
+          Id="Package\SanPham_Jupiter\Add column NgayCapNhat, NgayTao"
+          TopLeft="334.166656860939,336.589740899894" />
+        <NodeLayout
+          Size="166.892307692308,41.3538461538462"
+          Id="Package\SanPham_Jupiter\Add column Nguon"
+          TopLeft="164.999995158269,101.589740753174" />
+        <NodeLayout
+          Size="178.707692307693,41.3538461538462"
+          Id="Package\SanPham_Jupiter\OLE DB Destination 1"
+          TopLeft="474.999986061684,174.051278334398" />
+        <NodeLayout
+          Size="169.107692307693,41.3538461538462"
+          Id="Package\SanPham_Jupiter\OLE DB Destination"
+          TopLeft="574.166649818421,409.089738772466" />
+        <NodeLayout
+          Size="169.846153846154,41.3538461538462"
+          Id="Package\SanPham_Jupiter\Check MaSP in NDS"
+          TopLeft="177.499994791471,256.833326266362" />
+        <NodeLayout
+          Size="179.446153846154,41.3538461538462"
+          Id="Package\SanPham_Jupiter\Load data from Stage"
+          TopLeft="159.999995304988,25.1666659281804" />
+        <NodeLayout
+          Size="135.138461538462,41.3538461538462"
+          Id="Package\SanPham_Jupiter\Update data"
+          TopLeft="68.333331328172,400.679480405955" />
+        <NodeLayout
+          Size="200.123076923077,41.3538461538462"
+          Id="Package\SanPham_Jupiter\Add column NgayCapNhat"
+          TopLeft="38.3333322084867,332.589736791758" />
+        <EdgeLayout
+          Id="Package\SanPham_Jupiter.Paths[Derived Column Output1]"
+          TopLeft="137.148716383714,373.943582945604">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26.7358974603507"
+              Start="0,0"
+              End="0,19.2358974603507">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.2358974603507" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SanPham_Jupiter.Paths[Derived Column Output]"
+          TopLeft="251.484610616244,142.94358690702">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,28.6461517920863"
+              Start="0,0"
+              End="0,21.1461517920863">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.1461517920863" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SanPham_Jupiter.Paths[Output 0]"
+          TopLeft="542.346142915579,428.555119829912">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="31.820506902842,0"
+              Start="0,0"
+              End="24.320506902842,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="24.320506902842,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SanPham_Jupiter.Paths[OLE DB Source Output]"
+          TopLeft="249.084610616244,66.5205120820265">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,35.0692286711472"
+              Start="0,0"
+              End="0,27.5692286711472">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5692286711472" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SanPham_Jupiter.Paths[Lookup Match Output1]"
+          TopLeft="262.423071714548,298.187172420209">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-124.028201044523,34.4025643715491"
+              Start="0,0"
+              End="-124.028201044523,26.9025643715491">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.2012821857745" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.2012821857745"
+                    Point2="0,17.2012821857745"
+                    Point3="-4,17.2012821857745" />
+                  <mssgle:LineSegment
+                    End="-120.028201044523,17.2012821857745" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-120.028201044523,17.2012821857745"
+                    Point2="-124.028201044523,17.2012821857745"
+                    Point3="-124.028201044523,21.2012821857745" />
+                  <mssgle:LineSegment
+                    End="-124.028201044523,26.9025643715491" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-110.205487241011,22.2012821857745,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SanPham_Jupiter.Paths[Lookup Match Output]"
+          TopLeft="258.473071971307,212.943584852952">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43.8897414134098"
+              Start="0,0"
+              End="0,36.3897414134098">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.3897414134098" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,12.3901832067049,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SanPham_Jupiter.Paths[Lookup Error Output1]"
+          TopLeft="349.046149151142,193.497431593675">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="125.953836910542,0"
+              Start="0,0"
+              End="118.453836910542,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="118.453836910542,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="13.3605317365209,5,91.7327734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SanPham_Jupiter.Paths[Lookup Error Output]"
+          TopLeft="289.397430688907,298.187172420209">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="169.199995402801,38.4025684796846"
+              Start="0,0"
+              End="169.199995402801,30.9025684796846">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.5760597207623" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.5760597207623"
+                    Point2="0,15.5760597207623"
+                    Point3="4,15.5760597207623" />
+                  <mssgle:LineSegment
+                    End="165.199995402801,15.5760597207623" />
+                  <mssgle:CubicBezierSegment
+                    Point1="165.199995402801,15.5760597207623"
+                    Point2="169.199995402801,15.5760597207623"
+                    Point3="169.199995402801,19.5760597207623" />
+                  <mssgle:LineSegment
+                    End="169.199995402801,30.9025684796846" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="38.7336109826505,20.5760597207623,91.7327734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SanPham_Jupiter.Paths[Derived Column Output2]"
+          TopLeft="458.010246042105,377.94358705374">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,28.7230676797712"
+              Start="0,0"
+              End="0,21.2230676797712">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.2230676797712" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\SanPham_Jupiter\Check MaLoaiSP in NDS">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\SanPham_Jupiter\OLE DB Destination 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\SanPham_Jupiter\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\SanPham_Jupiter\Check MaSP in NDS">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\SanPham_Jupiter\Load data from Stage">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
